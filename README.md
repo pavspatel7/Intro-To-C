@@ -21,6 +21,7 @@ ________________________________________________________________________________
 uniq.c
 Partial Linux implementation of uniq command in C
 A user inputs as many strings as they want following the enter key. User types Ctrl+D to stop input. The output is the count of number of times you input that string followed by the string itself. The count is reset to 0 every time input changes. For example:
+
         ./uniq ------------- Input
         hello
         hello
